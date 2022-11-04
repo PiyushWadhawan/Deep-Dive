@@ -22,6 +22,7 @@ video {
     color: #fff;
     font-size: 6rem;
     margin-top: -100px;
+    text-align: center;
 }
 
 .intro-container p {
@@ -29,5 +30,41 @@ video {
     margin-top: 1rem;
     font-size: 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
+.intro-btns {
+    margin-top: 2rem;
+}
+
+.intro-btns .btn {
+    margin: 6px
+}
+
+@media screen and (max-width: 960px) {
+    .intro-container h1 {
+        font-size: 4rem;
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro-container h1 {
+        font-size: 3.2rem;
+        margin-top: -100px;
+
+    }
+
+    .intro-container p {
+        font-size: 1.9rem;
+    }
+
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
