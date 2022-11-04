@@ -5,7 +5,7 @@ import './IntroPage.css'
 function IntroPage() {
   return (
       <>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
+      <video src='/videos/video-2.mp4' autoPlay loop muted />
       <div className='intro-container'>
         <h1>Let's conquer the Depths</h1>
         <p>What are you waiting for?</p>
