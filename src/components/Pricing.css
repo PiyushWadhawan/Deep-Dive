@@ -38,6 +38,8 @@
 
     .pricing-heading {
         font-size: 2rem;
+        padding-top: 1rem;
+        margin-bottom: 0rem;
     }
 
     .container {
