@@ -6,7 +6,7 @@ function InfoBox({ heading, points, format, image }) {
     <>
       <div className={format === 'normal'? 'info-container' : 'info-container mirrored'}>
         
-        <div className="pic">
+        <div className="pic" >
             <img src={image} alt="pictures"/>
         </div>
         
