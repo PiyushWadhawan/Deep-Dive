@@ -123,4 +123,12 @@
     .cards_item {
       margin-bottom: 2rem;
     }
+
+    .cards_container {
+      width: 100%;
+    }
+
+    .cards_cards_wrapper {
+      width: 100%;
+    }
   }
