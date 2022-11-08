@@ -1,6 +1,7 @@
 .cards {
     padding: 4rem;
     background: white;
+    /* background: linear-gradient(rgb(16, 129, 10), rgb(82, 82, 82), rgb(172, 172, 172), rgb(247, 247, 247)); */
   }
   
   h1 {
@@ -17,6 +18,11 @@
     margin: 0 auto;
   }
   
+  .cards_cards_wrapper {
+    width: 80%;
+    padding: 1rem;
+  }
+
   .cards_wrapper {
     position: relative;
     margin: 50px 0 45px;
