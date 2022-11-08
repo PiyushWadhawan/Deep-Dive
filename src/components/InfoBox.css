@@ -6,7 +6,6 @@
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
-    /* background-image: url('https://www.danica-maritime.com/wp-content/uploads/2020/10/online-training-scaled.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -35,7 +34,8 @@ img:hover {
 
 .info {
     padding: 2rem;
-    background-color: #80ED99;
+    background-color: white;
+    opacity: 0.7;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -46,6 +46,7 @@ img:hover {
 .info h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .info ul {
@@ -60,18 +61,36 @@ img:hover {
 }
 
 @media screen and (max-width: 1024px) {
-    .info-container {
-        flex-direction: column;
-        align-items: center;
-    }
 
     .pic {
         display: none;
+    }
+   
+    .info {
+        width: 60%;
+        background-color: white;
+        opacity: 0.7;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .info {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .info-container {
+        height: 60vh;
     }
 
     .info {
         width: 100%;
     }
 }
+
+
 
 
