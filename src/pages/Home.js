@@ -11,7 +11,6 @@ function Home() {
       <IntroPage/>
       <Cards/>
       <Pricing/>
-      <Footer/>
     </>
   )
 }
