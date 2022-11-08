@@ -20,9 +20,9 @@ function IntroPage({ background, changeBackground }) {
             </Button>
         </div>
 
-        <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' onClick={changeBackground}>
-            Background
-        </Button>
+        <button className="btn-background" onClick={changeBackground}>
+            B
+        </button>
 
     </div>
     </>
