@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from './homepage-components/Button'
+import { Button } from '../home-page-components/Button'
 import { GiSharkFin } from 'react-icons/gi'
 import './Footer.css'
 function Footer() {

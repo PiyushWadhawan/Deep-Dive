@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/shared-components/Navbar';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './pages/Home';
-import Footer from './components/Footer';
+import Explore from './pages/Explore'
+import Footer from './components/shared-components/Footer';
 import { useState } from 'react';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
     <Navbar/>
       <Routes>
         <Route path='/' element={<Home background={background} changeBackground={changeBackground}/>}/>
+        <Route path='/explore' element={<Explore />}/>
       </Routes>
     <Footer/>
     </Router>
