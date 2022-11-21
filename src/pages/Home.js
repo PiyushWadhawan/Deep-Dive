@@ -1,9 +1,9 @@
 import React from 'react'
 import '../App.css'
-import Cards from '../components/Cards'
-import IntroPage from '../components/IntroPage'
-import Pricing from '../components/Pricing'
-import InfoBox from '../components/InfoBox'
+import Cards from '../components/homepage-components/Cards'
+import IntroPage from '../components/homepage-components/IntroPage'
+import Pricing from '../components/homepage-components/Pricing'
+import InfoBox from '../components/homepage-components/InfoBox'
 
 function Home({ background, changeBackground }) {
   return (
