@@ -4,6 +4,7 @@ import Navbar from './components/shared-components/Navbar';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './pages/Home';
 import Explore from './pages/Explore'
+import Roadmap from './pages/Roadmap'
 import Footer from './components/shared-components/Footer';
 import { useState } from 'react';
 
@@ -25,6 +26,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home background={background} changeBackground={changeBackground}/>}/>
         <Route path='/explore' element={<Explore />}/>
+        <Route path='/roadmap/:career_id' element={<Roadmap />}/>
       </Routes>
     <Footer/>
     </Router>

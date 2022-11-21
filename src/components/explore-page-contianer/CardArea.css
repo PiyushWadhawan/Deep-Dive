@@ -4,6 +4,17 @@
     width: 100%;
 }
 
+.explore_intro
+{
+    padding: 22rem 0;
+    background: url('https://wallpapers.com/images/hd/lionhead-goldfish-7f0rda14z8xc3j3m.jpg') center center/cover no-repeat;
+}
+
+.explore_heading
+{
+    color: white;
+}
+
 .cardarea_container
 {
     width: 100%;
