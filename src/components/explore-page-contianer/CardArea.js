@@ -73,6 +73,7 @@ function CardArea() {
 
   return (
     <div className="explore_div">
+        
         {/* <video src='/videos/video-3.mp4' autoPlay loop muted /> */}
         <div className="explore_intro">
             <h1 className='explore_heading'>Explore career options in which we offer full guidance</h1>
