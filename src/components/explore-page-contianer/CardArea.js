@@ -1,6 +1,9 @@
 import React from 'react'
 import Card from './Card'
 import './CardArea.css'
+import { BsSearch } from 'react-icons/bs'
+import { AiOutlineClose } from 'react-icons/ai'
+import { useState } from 'react'
 
 const CARD_DATA = [
     {
@@ -8,7 +11,7 @@ const CARD_DATA = [
         image: "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/06/software_engineer.jpeg.jpg",
         heading: "Senior Software Engineering",
         type: "Management",
-        description: "Skills: Communication Communication Communication Communication Communication Communication Communication Communication skills, Leadership, Teamwork, Analyzing information, Software design, Software documentation, Software testing, General programming skills, Software requirements, Software architecture, Coaching and mentoring"
+        description: "Skills: Communication skills, Leadership, Teamwork, Analyzing information, Software design, Software documentation, Software testing, General programming skills, Software requirements, Software architecture, Coaching and mentoring"
     },
     {
         id: 2,
@@ -22,14 +25,14 @@ const CARD_DATA = [
         image: "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/06/software_engineer.jpeg.jpg",
         heading: "Senior Software Engineering",
         type: "Management",
-        description: "Skills: Communication Communication Communication Communication Communication Communication Communication Communication skills, Leadership, Teamwork, Analyzing information, Software design, Software documentation, Software testing, General programming skills, Software requirements, Software architecture, Coaching and mentoring"
+        description: "Skills: Communication skills, Leadership, Teamwork, Analyzing information, Software design, Software documentation, Software testing, General programming skills, Software requirements, Software architecture, Coaching and mentoring"
     },
     {
         id: 4,
         image: "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/06/software_engineer.jpeg.jpg",
         heading: "Senior Software Engineering",
         type: "Management",
-        description: "Skills: Communication Communication Communication Communication Communication Communication Communication Communication skills, Leadership, Teamwork, Analyzing information, Software design, Software documentation, Software testing, General programming skills, Software requirements, Software architecture, Coaching and mentoring"
+        description: "Skills: Communication skills, Leadership, Teamwork, Analyzing information, Software design, Software documentation, Software testing, General programming skills, Software requirements, Software architecture, Coaching and mentoring"
     },
     {
         id: 5,
@@ -43,19 +46,49 @@ const CARD_DATA = [
         image: "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/06/software_engineer.jpeg.jpg",
         heading: "Senior Software Engineering",
         type: "Management",
-        description: "Skills: Communication Communication Communication Communication Communication Communication Communication Communication skills, Leadership, Teamwork, Analyzing information, Software design, Software documentation, Software testing, General programming skills, Software requirements, Software architecture, Coaching and mentoring"
+        description: "Skills: Communication skills, Leadership, Teamwork, Analyzing information, Software design, Software documentation, Software testing, General programming skills, Software requirements, Software architecture, Coaching and mentoring"
     },
 ]
 
 function CardArea() {
+
+    const [searchWord, setSearchWord] = useState("");
+    const [filteredData, setFilteredData] = useState(CARD_DATA);
+
+    const handleFilter = (event) => {
+        const searchWord = event.target.value;
+        setSearchWord(searchWord);
+
+        const newFilter = CARD_DATA.filter((item) => {
+            return item.type.toLowerCase().includes(searchWord.toLowerCase()) || item.heading.toLowerCase().includes(searchWord.toLowerCase());
+        })
+
+        setFilteredData(newFilter);
+    }
+
+    const clearSearch = () => {
+        setSearchWord("")
+        setFilteredData(CARD_DATA)
+    }
+
   return (
     <div className="explore_div">
+        {/* <video src='/videos/video-3.mp4' autoPlay loop muted /> */}
         <div className="explore_intro">
             <h1 className='explore_heading'>Explore career options in which we offer full guidance</h1>
+            <div className="search">
+                <div className="searchInputs">
+                    <input type="text" placeholder='Search' value={searchWord} onChange={handleFilter}/>
+                    <div className="searchIcon" onClick={clearSearch}>
+                        {searchWord === "" ? <BsSearch/> : <AiOutlineClose/> }
+                    </div>
+                </div>
+            </div>
+
         </div>
+
         <div className="cardarea_container">
-            {
-                CARD_DATA.map(item => <Card key={item.id} id={item.id} image={item.image} heading={item.heading} type={item.type} description={item.description} />)
+            { filteredData === [] ? <h1>No results</h1> : filteredData.map(item => <Card key={item.id} id={item.id} image={item.image} heading={item.heading} type={item.type} description={item.description} />)
             }
         </div>
     </div>
