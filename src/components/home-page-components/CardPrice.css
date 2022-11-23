@@ -1,0 +1,97 @@
+
+.card-container {
+    width: 100%;
+    min-width: 200px;
+    border: 2px solid white;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    margin: 2rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px 4px rgb(217, 236, 246);
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.card-heading {
+    padding: 2rem 0;
+    margin-bottom: 0;
+    transition: all 0.5s ease;
+}
+
+.card-point {
+    list-style: none;
+}
+
+.point {
+    padding: 0.8rem 2rem;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.btn-spacing {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.light {
+    box-shadow: 1px 1px 4px 4px rgb(217, 236, 246);
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.btn-price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    padding: 0 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.point:nth-child(even) {
+    background-color: rgb(247, 254, 255);
+}
+
+.btn-price:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.card-heading:hover {
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+
+.point:hover {
+    border-bottom: 1px solid rgb(226, 226, 226);
+    box-shadow: 0px 2px 10px 0 rgb(217, 236, 246);
+    transition: all 0.5s ease;
+}
+
+.card-container:hover {
+    box-shadow: 5px 5px 10px 10px rgb(217, 236, 246);
+    transition: all 1s ease;
+}
+
+@media screen and (max-width: 960px) {
+
+    .card-container {
+        width: 80%;
+    }
+
+    .btn-price {
+        padding: 0 0.5rem;
+    }
+    
+}
+
+
