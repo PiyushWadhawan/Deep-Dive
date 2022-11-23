@@ -71,11 +71,12 @@ a {
     cursor: pointer;
     background-color: transparent;
     color: #fff;
-    padding: 8px 20px;
+    padding: 8px 26x;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
     padding: 12px 26px;
     font-size: 20px;
+    margin: 6px;
 }
 
 .IntroButton:hover {
@@ -98,6 +99,12 @@ a {
     .btn-background {
         top: 100px;
         right: 20px
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .IntroButton {
+        width: 100%;
     }
 }
 
