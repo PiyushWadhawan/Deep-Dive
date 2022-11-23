@@ -14,7 +14,7 @@ function IntroPage({ background, changeBackground }) {
         <p>{IntroData.subHeading1}</p>
         <p>{IntroData.subHeading2}</p>
         <div className="intro-btns">
-            <button className='IntroButton'>
+            <button className='btns IntroButton'>
                 <a href="#howitworks">{IntroData.button1}</a> 
             </button>
             <Button className='btns' link={'/test'} buttonStyle='btn--primary' buttonSize='btn--large'>
