@@ -2,26 +2,28 @@ import React from 'react'
 import {Button} from './Button'
 import './IntroPage.css'
 
-function IntroPage({ background, changeBackground }) {
+import IntroData from '../../Data/HomePage/IntroPage.json'
+
+function IntroPage({ background, changeBackground }) {  
 
   return (
       <>
-      {background === 0 ? <video src='/videos/video-2.mp4' autoPlay loop muted /> : ''}
-      <div className='intro-container' style={{background: background === 1 ? "url('https://rare-gallery.com/uploads/posts/1110423-sea-shark-movies-blue-underwater-split-view-Great-White-Shark-Jaws-ocean-computer-wallpaper-atmosphere-of-earth-extreme-sport.jpg') center center/cover no-repeat":''}}>
-        <h1>Let's Conquer The Depths</h1>
-        <p>What are you waiting for?</p>
-        <p>Find the career that is best for you</p>
+      {background === 0 ? <video src={IntroData.backgroundVideo} autoPlay loop muted /> : ''}
+      <div className='intro-container' style={{background: background === 1 ? `url(${IntroData.alternateBackgroundImage}) center center/cover no-repeat`:''}}>
+        <h1>{IntroData.heading}</h1>
+        <p>{IntroData.subHeading1}</p>
+        <p>{IntroData.subHeading2}</p>
         <div className="intro-btns">
-            <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
-                HOW IT WORKS?
-            </Button>
-            <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
-                TAKE THE TEST
+            <button className='IntroButton'>
+                <a href="#howitworks">{IntroData.button1}</a> 
+            </button>
+            <Button className='btns' link={'/test'} buttonStyle='btn--primary' buttonSize='btn--large'>
+                {IntroData.button2}
             </Button>
         </div>
 
         <button className="btn-background" onClick={changeBackground}>
-            B
+            {IntroData.backgroundChangeButton}
         </button>
 
     </div>
