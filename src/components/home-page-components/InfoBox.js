@@ -26,7 +26,7 @@ function InfoBox({ heading, points, format, image, altimage }) {
 
   return (
     <>
-      <div className={format === 'normal'? 'info-container' : 'info-container mirrored'} style={{background: isDesktop === true ? "":`url(${altimage}) center center/cover no-repeat`}}>
+      <div id="howitworks" className={format === 'normal'? 'info-container' : 'info-container mirrored'} style={{background: isDesktop === true ? "":`url(${altimage}) center center/cover no-repeat`}}>
         
         <div className="pic" >
             <img src={image} alt="pictures"/>
