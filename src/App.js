@@ -1,12 +1,25 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/shared-components/Navbar';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, useLocation} from 'react-router-dom'
+import {useLayoutEffect} from 'react';
 import Home from './pages/Home';
 import Explore from './pages/Explore'
 import Roadmap from './pages/Roadmap'
 import Footer from './components/shared-components/Footer';
 import { useState } from 'react';
+
+const Wrapper = ({children}) => {
+
+  const location = useLocation();
+
+  useLayoutEffect(() => {
+    document.documentElement.scrollTo(0, 0);
+  }, [location.pathname]);
+
+  return children
+
+} 
 
 function App() {
 
@@ -22,13 +35,19 @@ function App() {
   return (
     <>
     <Router>
-    <Navbar/>
-      <Routes>
-        <Route path='/' element={<Home background={background} changeBackground={changeBackground}/>}/>
-        <Route path='/explore' element={<Explore />}/>
-        <Route path='/roadmap/:career_id' element={<Roadmap />}/>
-      </Routes>
-    <Footer/>
+    <Wrapper>
+      
+      <Navbar/>
+
+        <Routes>
+          <Route path='/' element={<Home background={background} changeBackground={changeBackground}/>}/>
+          <Route path='/explore' element={<Explore />}/>
+          <Route path='/roadmap/:heading/:career_id' element={<Roadmap />}/>
+        </Routes>
+
+      <Footer/>
+
+      </Wrapper>
     </Router>
     </>
   );

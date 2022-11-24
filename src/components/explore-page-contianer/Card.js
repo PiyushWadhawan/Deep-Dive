@@ -14,7 +14,7 @@ function Card({ id, image, heading, type, description }) {
         </div>
         <div className="card_button_type">
             <h5 className='type'>{type}</h5>
-            <Link to={`/roadmap/${id}`}>
+            <Link to={`/roadmap/${heading}/${id}`}>
                 <button className='card_button alternate'>View Roadmap</button>
             </Link>
         </div>
