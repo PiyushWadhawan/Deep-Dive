@@ -5,12 +5,14 @@ import IntroPage from '../components/home-page-components/IntroPage'
 import Pricing from '../components/home-page-components/Pricing'
 import InfoBox from '../components/home-page-components/InfoBox'
 import HomeData from '../data/Home/InfoBox.json'
+import Space from '../components/shared-components/Space'
 
 function Home({ background, changeBackground }) {
   return (
     <>
       <IntroPage background={background} changeBackground={changeBackground}/>
       <Cards/>
+      <Space/>
       {
         HomeData.map((item) => <InfoBox heading={item.heading} points={item.points} format={item.format} image={item.image} altimage={item.altimage}/>)
       }

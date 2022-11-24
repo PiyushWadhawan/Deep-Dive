@@ -41,3 +41,37 @@
     color: #242424;
     transition: 250ms;
   }
+
+  .btn--test:hover {
+    color: black;
+    background-color: white;
+  }
+
+  .btn--outline:hover
+  {
+    color: white;
+    background-color: black;
+    border-color: black;
+    transition: all 0.3s ease-out;
+  }
+
+  .btn--test:hover {
+    color: white;
+    background-color: black;
+    transition: all 0.3s ease-out;
+  }
+
+  .btn--signup {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+  }
+
+  .btn--signup:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+    transition: all 0.3s ease-out;
+  }

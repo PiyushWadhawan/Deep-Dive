@@ -50,12 +50,14 @@ video {
     height: 2rem;
     border-radius: 100%;
     border: 2px solid white;
+    transition: all 0.3s ease-out;
 }
 
 .btn-background:hover {
     background-color: white;
     color: black;
     cursor: pointer;
+    transition: all 0.3s ease-out;
 }
 
 @media screen and (max-width: 960px) {

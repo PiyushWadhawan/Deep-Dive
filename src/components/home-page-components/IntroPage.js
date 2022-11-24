@@ -14,10 +14,10 @@ function IntroPage({ background, changeBackground }) {
         <p>{IntroData.subHeading1}</p>
         <p>{IntroData.subHeading2}</p>
         <div className="intro-btns">
-            <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
+            <Button className='btns' style={{"scrollbeahaviour": "smooth"}} link={'#howitworks'} buttonStyle='btn--outline' buttonSize='btn--large'>
                 {IntroData.button1}
             </Button>
-            <Button className='btns' link={'/test'} buttonStyle='btn--primary' buttonSize='btn--large'>
+            <Button className='btns' link={'/test'} buttonStyle='btn--test' buttonSize='btn--large'>
                 {IntroData.button2}
             </Button>
         </div>
