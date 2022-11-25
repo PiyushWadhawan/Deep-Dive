@@ -1,7 +1,7 @@
 import React from 'react'
 import './RoadMapContainer.css'
 
-function RoadMapContainer( {point} ) {
+function RoadMapContainer( {point, resources} ) {
   return (
     <div className='roadmap-container'>
 
@@ -9,7 +9,9 @@ function RoadMapContainer( {point} ) {
             
         </div>
         <div className='container2'>
-            {point}
+            <h4 style={{"fontWeight": "normal"}}>{point}</h4>
+            <br></br>
+            <p>Resources: {resources}</p>
         </div>
 
     </div>

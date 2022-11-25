@@ -1,42 +1,46 @@
 [
     [
         {
-            "point": "LEARN A DEGREE IN COMPUTER SCIENCE"
+            "point": "LEARN A DEGREE IN COMPUTER SCIENCE",
+            "resources": "Java: The Complete Reference, Seventh Edition"
         },
         {
-            "point": "ACQUIRE KNOWLEDGE OF PROGRAMMING LANGUAGE"
+            "point": "ACQUIRE KNOWLEDGE OF PROGRAMMING LANGUAGE",
+            "resources": "Java: The Complete Reference, Seventh Edition"
         },
         {
-            "point": "EXPLORE DATA STRUCTURE AND ALGORITHM"
+            "point": "EXPLORE DATA STRUCTURE AND ALGORITHM",
+            "resources": "Java: The Complete Reference, Seventh Edition"
         },
         {
-            "point": "CREATE SOME PROJECTS FROM SNATCH"
+            "point": "CREATE SOME PROJECTS FROM SNATCH",
+            "resources": "Java: The Complete Reference, Seventh Edition"
         },
         {
-            "point": "LOOK FOR INTERNSHIP OPPORTUNITIES"
+            "point": "LOOK FOR INTERNSHIP OPPORTUNITIES",
+            "resources": "Java: The Complete Reference, Seventh Edition"
         },
         {
-            "point": "BEGIN LOOKING FOR EMPLOYMENT OPPORTUNITIES"
+            "point": "BEGIN LOOKING FOR EMPLOYMENT OPPORTUNITIES",
+            "resources": "Java: The Complete Reference, Seventh Edition"
         }
     ],
     [
         {
-            "point": "LEARN A DEGREE IN COMPUTER SCIENCE"
+            "point": "LEARN A DEGREE IN COMPUTER SCIENCE",
+            "resources": "Java: The Complete Reference, Seventh Edition"
         },
         {
-            "point": "ACQUIRE KNOWLEDGE OF PROGRAMMING LANGUAGE"
+            "point": "ACQUIRE KNOWLEDGE OF PROGRAMMING LANGUAGE",
+            "resources": "Java: The Complete Reference, Seventh Edition"
         },
         {
-            "point": "EXPLORE DATA STRUCTURE AND ALGORITHM"
+            "point": "EXPLORE DATA STRUCTURE AND ALGORITHM",
+            "resources": "Java: The Complete Reference, Seventh Edition"
         },
         {
-            "point": "CREATE SOME PROJECTS FROM SNATCH"
-        },
-        {
-            "point": "LOOK FOR INTERNSHIP OPPORTUNITIES"
-        },
-        {
-            "point": "BEGIN LOOKING FOR EMPLOYMENT OPPORTUNITIES"
+            "point": "CREATE SOME PROJECTS FROM SNATCH",
+            "resources": "Java: The Complete Reference, Seventh Edition"
         }
     ]
 ]
