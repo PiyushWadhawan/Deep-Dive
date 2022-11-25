@@ -1,0 +1,42 @@
+.roadmap-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    color: aqua;
+}
+
+.container1 {
+    width: 50%;
+}
+
+.container2 {
+    width: 50%;
+    height: 100%;
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
+    border-bottom: solid 2px white;
+}
+
+.roadmap-container:nth-of-type(odd) .container2 {
+    border-left: solid 2px white;
+    padding-left: 1rem;
+}
+
+.roadmap-container:nth-of-type(odd) .container1 {
+    border-right: solid 2px white;
+}
+
+.roadmap-container:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+
+.roadmap-container:nth-of-type(even) .container2 {
+    border-right: solid 2px white;
+}
+
+.roadmap-container:nth-of-type(even) .container1 {
+    border-left: solid 2px white;
+}
+
+
+
