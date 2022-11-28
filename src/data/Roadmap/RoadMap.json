@@ -1,46 +1,131 @@
 [
-    [
-        {
-            "point": "LEARN A DEGREE IN COMPUTER SCIENCE",
-            "resources": "Java: The Complete Reference, Seventh Edition"
-        },
-        {
-            "point": "ACQUIRE KNOWLEDGE OF PROGRAMMING LANGUAGE",
-            "resources": "Java: The Complete Reference, Seventh Edition"
-        },
-        {
-            "point": "EXPLORE DATA STRUCTURE AND ALGORITHM",
-            "resources": "Java: The Complete Reference, Seventh Edition"
-        },
-        {
-            "point": "CREATE SOME PROJECTS FROM SNATCH",
-            "resources": "Java: The Complete Reference, Seventh Edition"
-        },
-        {
-            "point": "LOOK FOR INTERNSHIP OPPORTUNITIES",
-            "resources": "Java: The Complete Reference, Seventh Edition"
-        },
-        {
-            "point": "BEGIN LOOKING FOR EMPLOYMENT OPPORTUNITIES",
-            "resources": "Java: The Complete Reference, Seventh Edition"
-        }
-    ],
-    [
-        {
-            "point": "LEARN A DEGREE IN COMPUTER SCIENCE",
-            "resources": "Java: The Complete Reference, Seventh Edition"
-        },
-        {
-            "point": "ACQUIRE KNOWLEDGE OF PROGRAMMING LANGUAGE",
-            "resources": "Java: The Complete Reference, Seventh Edition"
-        },
-        {
-            "point": "EXPLORE DATA STRUCTURE AND ALGORITHM",
-            "resources": "Java: The Complete Reference, Seventh Edition"
-        },
-        {
-            "point": "CREATE SOME PROJECTS FROM SNATCH",
-            "resources": "Java: The Complete Reference, Seventh Edition"
-        }
-    ]
+	[
+		{
+			"point": "GIVE NDA WRITTEN EXAM",
+			"resources": "https://www.ssbcrack.com/written-exams/nda-exam"
+		},
+		{
+			"point": "QUALIFYING CADIDATES GIVE SSB INTERVIEW",
+			"resources": "https://byjusexamprep.com/killer-strategy-to-crack-nda-ssb-interview-i"
+		},
+		{
+			"point": "AIRFORCE CADIDATES SEPERATELY GIVE Computerised Pilot Selection System (CPSS)",
+			"resources": ""
+		},
+		{
+			"point": "SSB-RECOMMEDED CANDIDATES GIVE MEDICAL-FITNESS TEST",
+			"resources": "https://byjusexamprep.com/medical-test-after-ssb-interview-i#:~:text=Medical%20Standards%3A,Standard%20should%20be%20CP%2DIII"
+		},
+		{
+			"point": "SELECTED CANDIDATES JOIN OTA (officers training academy)",
+			"resources": "https://www.ssbcrack.com/2022/07/how-to-join-ota-chennai.html"
+		}
+	],
+	[
+		{
+			"point": "GIVE AFCAT WRITTEN EXAM",
+			"resources": "https://byjusexamprep.com/defence-exams/afcat-exam-pattern"
+		},
+		{
+			"point": "PASSED CANDIDATES GIVE AFSB STAGE-1 SCREENING TEST(OIR AND PPDT)",
+			"resources": "https://www.youtube.com/watch?v=pVO5-LvHcgU"
+		},
+		{
+			"point": "AFSB STAGE-2 TEST",
+			"resources": "https://www.youtube.com/watch?v=Ly-YW_EoHDY"
+		},
+		{
+			"point": "MEDICAL-FITNESS EXAM",
+			"resources": "https://afcat.cdac.in/AFCAT/MedicalStandards.html"
+		},
+		{
+			"point": "BASED ON MERIT LIST, SELECTED CADIDATES JOIN AIRFORCE TRAINING",
+			"resources": "https://afcat.cdac.in/AFCAT/Training.html"
+		}
+		
+	],
+	[
+		{
+			"point": "PHYSICAL FITNESS TEST",
+			"resources": "https://www.adda247.com/defence-jobs/indian-army-agniveer-selection-process-2022/"
+		},
+		{
+			"point": "PHYSICAL MEASUREMENT",
+			"resources": "https://www.adda247.com/defence-jobs/indian-army-agniveer-selection-process-2022/#:~:text=the%20Physical%20standards-,Indian%20Army%20Agniveer%20Selection%20Process%202022%3A%20Medical%20Standards,binocular%20vision%20in%20both%20eyes."
+		},
+		{
+			"point": "MEDICAL TEST",
+			"resources": "https://www.youtube.com/watch?v=iZXyiuJq8o0"
+		},
+		{
+			"point": "COMMON ENTRANCE EXAM",
+			"resources": "https://byjusexamprep.com/nda-na-exams/indian-army-agniveer-exam-selection-process"
+		},
+		{
+			"point": "SELECED CANDIDATES UNDERGO 6-MONTHS TRAINING IN INDIAN ARMY",
+			"resources": "https://www.news9live.com/education-career/jobs/agniveer-training-module-instead-of-20-agniveers-will-go-through-basic-training-for-16-weeks-177496#:~:text=%22Agniveer%20program%20will%20have%2016,Eastern%20Naval%20Command%20told%20ANI."
+		}
+		
+	],
+	[
+		{
+			"point": "Join a Cricket Academy and find right coach",
+			"resources": "https://www.youtube.com/watch?v=HgUNPHm2qMY"
+		},
+		{
+			"point": "get fit",
+			"resources": "https://www.youtube.com/watch?v=HgUNPHm2qMY"
+		},
+		{
+			"point": "participate in school/college cricket team",
+			"resources": "https://www.youtube.com/watch?v=HgUNPHm2qMY"
+		},
+		{
+			"point": "Appear for district-level tournments",
+			"resources": "https://www.youtube.com/watch?v=HgUNPHm2qMY"
+		},
+		{
+			"point": "Appear for state-level tournments",
+			"resources": "https://www.youtube.com/watch?v=HgUNPHm2qMY"
+		},
+		{
+			"point": "Indian Premier League (IPL)",
+			"resources": "https://www.youtube.com/watch?v=HgUNPHm2qMY"
+		},
+		{
+			"point": "Appear for National Cricket Team selection",
+			"resources": "https://www.youtube.com/watch?v=HgUNPHm2qMY"
+		},
+		{
+			"point": "Believe in yourself",
+			"resources": "https://www.youtube.com/watch?v=HgUNPHm2qMY"
+		}
+	],
+	[
+		{
+			"point": "Pursue 12th sceince(Maths)",
+			"resources": "https://www.edumilestones.com/career-library/How-to-become-a-Aeronautical-engineer-in-India-Career-Guidance"
+		},
+		{
+			"point": "B.Tech in Aerospace Engineering",
+			"resources": "https://engineering.careers360.com/colleges/list-of-be-btech-in-aerospace-engineering-colleges-in-india"
+		},
+		{
+			"point": "Do internship/full-time job",
+			"resources": "https://in.linkedin.com/jobs/aerospace-engineering-intern-jobs"
+		},
+		{
+			"point": "M.Tech in Aerospace Engineering",
+			"resources": "https://engineering.careers360.com/colleges/list-of-me-mtech-in-aerospace-engineering-colleges-in-india"
+		},
+		{
+			"point": "M.Tech in Aerospace Engineering",
+			"resources": "https://engineering.careers360.com/colleges/list-of-me-mtech-in-aerospace-engineering-colleges-in-india"
+		},
+		{
+			"point": "Aerospace engineering job",
+			"resources": "https://in.linkedin.com/jobs/aerospace-engineer-jobs"
+		}
+		
+	]
 ]
