@@ -115,14 +115,6 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
-
-    .bigbox {
-        width: 98%;
-    }
-
-}
-
 /* resultjs file */
 
 .maindiv{
@@ -188,4 +180,43 @@
     background-color: green;
     transition: all 0.3s ease-in-out;
     border: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .bigbox {
+        width: 98%;
+    }
+
+    .maindiv {
+        padding: 3rem 0;
+    }
+
+    .hugebox {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .maindiv {
+        padding: 3rem 0;
+    }
+    
+    .hugebox {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .maindiv {
+        padding: 3rem 0;
+    }
+    .hugebox {
+        width: 98%;
+    }
+
 }
