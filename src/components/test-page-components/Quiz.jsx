@@ -5,7 +5,7 @@ import './style.css'
 export default function Quiz() {
     const [current, setCurrent] = useState(0);
     return (
-        <div className= "oned">
+        <div className= "oned" style={{"background": "url('https://images.hdqwalls.com/wallpapers/apple-waves-5k-image.jpg') center center/cover no-repeat"}}>
             <Box current={current} next={setCurrent} />
         </div>
     )
