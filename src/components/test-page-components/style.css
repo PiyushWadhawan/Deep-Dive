@@ -109,6 +109,20 @@
     margin: 0 1rem;
 }
 
+.t-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    .bigbox {
+        width: 98%;
+    }
+
+}
+
 /* resultjs file */
 
 .maindiv{

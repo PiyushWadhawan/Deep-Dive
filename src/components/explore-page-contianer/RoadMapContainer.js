@@ -11,7 +11,7 @@ function RoadMapContainer( {point, resources} ) {
         <div className='container2'>
             <h4 style={{"fontWeight": "normal"}}>{point}</h4>
             <br></br>
-            <p>Resources: {resources}</p>
+            {resources ? <p>Resources: {resources}</p>: " "}
         </div>
 
     </div>

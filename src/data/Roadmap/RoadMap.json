@@ -1,5 +1,71 @@
 [
 	[
+        {
+            "point": "LEARN A DEGREE IN FINANCIAL FIELD",
+			"resources": "https://collegedunia.com/courses/bachelor-of-business-administration-bba"
+        },
+        {
+            "point": "ACQUIRE KNOWLEDGE OF FINANCIAL MARKETS",
+			"resources": "https://zerodha.com/varsity/"
+        },
+        {
+            "point": "EXPLORE DIFFERENT INVESTMENT FIELDS",
+			"resources": "https://zerodha.com/varsity/"
+        },
+        
+        {
+            "point": "LOOK FOR INTERNSHIP OPPORTUNITIES"
+        },
+        {
+            "point": "BEGIN LOOKING FOR EMPLOYMENT OPPORTUNITIES"
+        }
+    ],
+	[
+        {
+            "point": "GET YOUR BACHLORS DEGREE",
+			"resources": "https://www.careers360.com/courses/llb-bachelor-of-legislative-law"
+        },
+        {
+            "point": "TAKE ENTRANCE EXAMS",
+			"resources": "https://www.shiksha.com/law/articles/top-law-entrance-exams-blogId-11410"
+        },
+        {
+            "point": "GET INTO LAW SCHOOL",
+			"resources": "https://law.careers360.com/colleges/ranking"
+        },
+        {
+            "point": "EARN YOUR LAW DEGREE"
+        },
+        {
+            "point": "PASS THE BAR EXAM",
+			"resources": "http://www.barcouncilofindia.org/"
+        }
+    ],
+	[
+        {
+            "point": "AFTER 12TH, ENROLL IN THE CA FOUNDATION COURSE",
+			"resources": "https://www.icai.org/post/foundation-course"
+        },
+        {
+            "point": "COMPLETE COURSE AND GIVE CA FOUNDATION EXAM"
+        },
+        {
+            "point": "ENROLL IN CA INTERMIDIATE COURSE AFTER CLEARING",
+			"resources": "https://www.icai.org/post/intermediate-course"
+        },
+        {
+            "point": "JOIN 3 OF ARTICLE TRAINING AFTER CLEARING CA INTERMIDIATE COURSE",
+			"resources": "https://www.charteredclub.com/articleship-registration/#:~:text=As%20a%20part%20of%20the,training%20under%20a%20Chartered%20Accountant.&text=Out%20of%20these%203%20years,a%20Chartered%20Accountant%20in%20practice."
+        },
+        {
+            "point": "ENROLL IN CA FINAL COUSEE",
+			"resources": "https://www.icai.org/post/final-course-new-scheme-of-education-and-training"
+        },
+        {
+            "point": "CLEAR ARTICLESHIP AND PASS CA FINAL EXAMS"
+        }
+    ],
+	[
 		{
 			"point": "GIVE NDA WRITTEN EXAM",
 			"resources": "https://www.ssbcrack.com/written-exams/nda-exam"
