@@ -35,7 +35,7 @@ function InfoBox({ heading, points, format, image, altimage }) {
         <div className="info">
             <h2>{heading}</h2>
             <ul>
-                {points.map((item) => <li>{item.p}</li>)}
+                {points.map((item) => <li key={item.p}>{item.p}</li>)}
             </ul>
         </div>
 

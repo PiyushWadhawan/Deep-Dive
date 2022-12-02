@@ -13,7 +13,7 @@ function CardPrice({ heading, points, btn_text, btn_style }) {
         <div className="btn-spacing">
 
           <ul className='card-point'>
-            {points.map((item) => <li className='point'>{item.p}</li>)}
+            {points.map((item) => <li className='point' key={item.p}>{item.p}</li>)}
           </ul>
   
           <div style={{width: '40%' ,textAlign: 'center', padding: '1rem'}}>

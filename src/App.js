@@ -6,6 +6,7 @@ import {useLayoutEffect} from 'react';
 import Home from './pages/Home';
 import Explore from './pages/Explore'
 import Roadmap from './pages/Roadmap'
+import Test from './pages/Test'
 import Footer from './components/shared-components/Footer';
 import { useState } from 'react';
 
@@ -43,6 +44,7 @@ function App() {
           <Route path='/' element={<Home background={background} changeBackground={changeBackground}/>}/>
           <Route path='/explore' element={<Explore />}/>
           <Route path='/roadmap/:heading/:career_id' element={<Roadmap />}/>
+          <Route path='/test' element={<Test />}/>
         </Routes>
 
       <Footer/>

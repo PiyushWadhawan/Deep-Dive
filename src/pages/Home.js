@@ -14,7 +14,7 @@ function Home({ background, changeBackground }) {
       <Cards/>
       <Space/>
       {
-        HomeData.map((item) => <InfoBox heading={item.heading} points={item.points} format={item.format} image={item.image} altimage={item.altimage}/>)
+        HomeData.map((item) => <InfoBox key={item.heading} heading={item.heading} points={item.points} format={item.format} image={item.image} altimage={item.altimage}/>)
       }
       <Pricing/>
     </>
