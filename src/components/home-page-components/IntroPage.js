@@ -9,7 +9,7 @@ function IntroPage({ background, changeBackground }) {
   return (
       <>
       {background === 0 ? <video src={IntroData.backgroundVideo} autoPlay loop muted /> : ''}
-      <div className='intro-container' style={{background: background === 1 ? `url(${IntroData.alternateBackgroundImage}) center center/cover no-repeat`:''}}>
+      <div id='top' className='intro-container' style={{background: background === 1 ? `url(${IntroData.alternateBackgroundImage}) center center/cover no-repeat`:''}}>
         <h1>{IntroData.heading}</h1>
         <p>{IntroData.subHeading1}</p>
         <p>{IntroData.subHeading2}</p>

@@ -27,6 +27,13 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navbar-logo:hover {
+    color: white;
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
   }
   
   .fa-typo3 {
