@@ -3,11 +3,30 @@ import Card from '../explore-page-contianer/Card'
 import '../explore-page-contianer/CardArea.css'
 import CARD_DATA from '../../data/Explore/Jobs.json'
 
-function Results() {
+function Results({data}) {
 
-        const careers_after_test = CARD_DATA.filter((item) => {
-            return item.type.toLowerCase() === "sports" || item.type.toLowerCase() === "engineering";
-        })
+    let careers_after_test;
+
+    if(data === 1)
+    {
+        careers_after_test = CARD_DATA.filter((item) => {
+            return item.type.toLowerCase() === "sports" || item.type.toLowerCase() === "defense" || item.type.toLowerCase() === "engineering";})
+    }
+    else if(data === 2)
+    {
+        careers_after_test = CARD_DATA.filter((item) => {
+            return item.type.toLowerCase() === "finance" || item.type.toLowerCase() === "sports" || item.type.toLowerCase() === "management" || item.type.toLowerCase() === "engineering";})
+    }
+    else if(data === 3)
+    {
+        careers_after_test = CARD_DATA.filter((item) => {
+            return item.type.toLowerCase() === "finance" || item.type.toLowerCase() === "defense" || item.type.toLowerCase() === "sports" || item.type.toLowerCase() === "management" || item.type.toLowerCase() === "engineering";})
+    }
+    else
+    {
+        careers_after_test = CARD_DATA.filter((item) => {
+            return item.type.toLowerCase() === "judicial" || item.type.toLowerCase() === "finance" || item.type.toLowerCase() === "defense" || item.type.toLowerCase() === "sports" || item.type.toLowerCase() === "management" || item.type.toLowerCase() === "engineering";})
+    }
 
 
   return (
