@@ -2,7 +2,6 @@ import React from 'react'
 import '../App.css'
 import Cards from '../components/home-page-components/Cards'
 import IntroPage from '../components/home-page-components/IntroPage'
-import Pricing from '../components/home-page-components/Pricing'
 import InfoBox from '../components/home-page-components/InfoBox'
 import HomeData from '../data/Home/InfoBox.json'
 import Space from '../components/shared-components/Space'
@@ -16,7 +15,6 @@ function Home({ background, changeBackground }) {
       {
         HomeData.map((item) => <InfoBox key={item.heading} heading={item.heading} points={item.points} format={item.format} image={item.image} altimage={item.altimage}/>)
       }
-      <Pricing/>
     </>
   )
 }
