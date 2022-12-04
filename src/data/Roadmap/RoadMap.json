@@ -193,5 +193,88 @@
 			"resources": "https://in.linkedin.com/jobs/aerospace-engineer-jobs"
 		}
 		
-	]
+	],
+	[
+		{
+			"point": "Pursue a degree in B.Com, BBA, B.Tech, or similar degree",
+		    "resources": "https://www.shiksha.com/business-management-studies/colleges/colleges-india"
+		},
+		{
+			"point": "Develop bussiness analytics skills",
+		   "resources": "https://www.simplilearn.com/tutorials/business-analysis-tutorial/how-to-become-a-business-analyst"
+		},
+		{
+			"point": "Acquire bussiness analytics certification",
+		   "resources": "https://in.coursera.org/specializations/business-analytics"
+		},
+		{
+		   "point": "Develop projects and do internships",
+		   "resources": "https://www.dataquest.io/blog/10-great-portfolio-projects-for-business-analysis/"
+		},
+		{
+		   "point": "Develop practical-projects and do internships",
+		   "resources": "https://www.dataquest.io/blog/10-great-portfolio-projects-for-business-analysis/"
+		},
+		{
+		   "point": "Apply for job",
+		   "resources": "https://in.linkedin.com/jobs/business-analytics-jobs"
+		},
+		{
+		   "point": "Give CAT exam for masters degree",
+		   "resources": "https://iimcat.ac.in/"
+		}
+	],
+	[
+		{
+			"point": "Complete 10+2",
+		    "resources": ""
+		},
+		{
+			"point": "Pursue Bachelore's degree",
+		    "resources": "https://in.indeed.com/career-advice/finding-a-job/how-to-become-a-pr-manager#:~:text=If%20you%20want%20to%20become%20a%20public%20relations%20manager%2C%20consider%20pursuing%20the%20following%20academic%20qualifications%3A"
+		},
+		{
+			"point": "Do internships",
+		    "resources": "https://in.indeed.com/career-advice/finding-a-job/how-to-become-a-pr-manager#:~:text=Complete%20internship%20programmes"
+		},
+		{
+			"point": "Gain relevent skills",
+			"resources": "https://in.indeed.com/career-advice/finding-a-job/how-to-become-a-pr-manager#:~:text=Equip%20yourself%20with%20the%20required%20skills"
+		},
+		{
+			"point": "Apply for jobs",
+		   "resources": "https://in.linkedin.com/jobs/public-relations-manager-jobs"
+		 }
+		
+	],
+	[
+		{
+			"point": "Complete 10+2 with Biology as main subject",
+		    "resources": ""
+		},
+		{
+			"point": "Appear NEET Entrance exam",
+		    "resources": "https://neet.nta.nic.in/"
+		},
+		{
+			"point": "Complete MBBS",
+		    "resources": "https://in.indeed.com/career-advice/finding-a-job/how-to-become-a-pr-manager#:~:text=Complete%20internship%20programmes"
+		},
+		{
+			"point": "Do internship during MBBS",
+			"resources": "https://in.indeed.com/career-advice/finding-a-job/how-to-become-a-pr-manager#:~:text=Equip%20yourself%20with%20the%20required%20skills"
+		},
+		{
+			"point": "Register with Indian Medical Register",
+		    "resources": "https://in.indeed.com/career-advice/finding-a-job/how-to-become-a-doctor#:~:text=Register%20with%20the%20Indian%20Medical%20Register"
+		},
+		{
+			"point": "Practice as doctor",
+		    "resources": ""
+		},
+		{
+			"point": "Pursue specialisation",
+		    "resources": "https://collegedunia.com/courses/bachelor-of-medicine-bachelor-of-surgery-mbbs/specializations-after-mbbs"
+		}
+	 ]
 ]

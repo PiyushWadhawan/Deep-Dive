@@ -49,10 +49,31 @@
         "description": "Batting, Bowling, Fielding, Hand-eye coordination, concentration, throwing and catching accuracy, reflexes, spatial perception, sprinting and agility, balance, strength and flexibility, muscle memory and consistency, timing"
     },
     {
-	   "id": 7,
+	    "id": 7,
         "image": "https://uswfoxtail.blob.core.windows.net/foxtail-prod-uploads/images/aerospace-engineering-courses-ban.width-1200.format-jpeg.jpg",
         "heading": "Aerospace Engineer",
         "type": "Engineering",
         "description": "Aerospace engineers evaluate designs to see that the products meet engineering principles. Aerospace engineers design primarily aircraft, spacecraft, satellites, and missiles. In addition, they create and test prototypes to make sure that they function according to design."
+    },
+    {
+        "id": 8,
+        "image": "https://www.michiganstateuniversityonline.com/wp-content/uploads/sites/3/2018/05/how-business-analytics-can-help-your-business.jpg",
+        "heading": "Bussiness Analytics",
+        "type": "Management",
+        "description": "A business analyst enables a change in the organization by comprehending business problems and providing solutions that will maximize its value to its stakeholders. They are involved in every tiny aspect of the business, beginning from laying out the strategy to creating enterprise architecture. "
+    },
+    {
+        "id": 9,
+        "image": "https://resources.workable.com/wp-content/uploads/2019/11/public_relations-1.jpg",
+        "heading": "PR Manager",
+        "type": "Management",
+        "description": "A confident communicator and presenter, Excellent verbal and written communication skills, Excellent organizational and planning skills"
+    },
+    {
+        "id": 10,
+        "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2018-04/14/full/1523727102-4933.jpg",
+        "heading": "Doctor",
+        "type": "Medical",
+        "description": "https://www.brainwonders.in/blog/how-to-become-a-doctor-in-india"
     }
 ]

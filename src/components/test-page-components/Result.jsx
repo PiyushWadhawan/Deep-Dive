@@ -33,9 +33,9 @@ export default function Result() {
                         {correct >=0 && correct<=260  ? 
                         <>
                             <div className='career_container'>
-                                <div>Sports</div>
-                                <div>Defense</div>
-                                <div>Engineer</div> 
+                                <div>Finance</div>
+                                <div>Judicial</div>
+                                <div>Management</div> 
                             </div> 
                             <button onClick={playAgain} className='startag'>Start Again</button>
                         </> : ''}
@@ -43,10 +43,9 @@ export default function Result() {
                         {correct >=261 && correct<=380  ? 
                         <>
                             <div className='career_container'>
-                                <div>Engineer</div>
-                                <div>Finance</div>
-                                <div>Management</div>
-                                <div>Sports</div> 
+                                <div>Engineering</div>
+                                <div>Medical</div>
+                                <div>Defense</div>
                             </div> 
                             <button onClick={playAgain} className='startag'>Start Again</button>
                         </> : ''}
@@ -55,10 +54,9 @@ export default function Result() {
                         <>
                             <div className='career_container'>
                                 <div>Defense</div> 
-                                <div>Finance</div>
+                                <div>Judicial</div>
                                 <div>Management</div>
                                 <div>Engineering</div>
-                                <div>Sports</div>
                             </div> 
                             <button onClick={playAgain} className='startag'>Start Again</button>
                         </> : ''}
@@ -66,12 +64,10 @@ export default function Result() {
                         {correct > 490 ?
                         <>
                             <div className='career_container'>
-                                <div>Judicial</div>
-                                <div>Defense</div> 
-                                <div>Finance</div>
-                                <div>Management</div>
-                                <div>Engineering</div>
                                 <div>Sports</div>
+                                <div>Arts</div> 
+                                <div>Cinema</div>
+                                <div>Journalism</div>
                             </div> 
                             <button onClick={playAgain} className='startag'>Start Again</button>
                         </> : ''} 
