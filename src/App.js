@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Explore from './pages/Explore'
 import Roadmap from './pages/Roadmap'
 import Test from './pages/Test'
+import Error from './pages/Error';
 import Footer from './components/shared-components/Footer';
 import { useState } from 'react';
 import PricingModel from './pages/PricingModel';
@@ -47,6 +48,7 @@ function App() {
           <Route path='/roadmap/:heading/:career_id' element={<Roadmap />}/>
           <Route path='/test' element={<Test />}/>
           <Route path='/pricing' element={<PricingModel />}/>
+          <Route path="*" element={<Error/>}/>
         </Routes>
 
       <Footer/>

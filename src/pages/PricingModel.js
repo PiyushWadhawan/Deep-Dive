@@ -1,5 +1,5 @@
 import React from 'react'
-import Pricing from '../components/home-page-components/Pricing'
+import Pricing from '../components/pricing-page-components/Pricing'
 
 function PricingModel() {
   return (
