@@ -11,6 +11,7 @@ import Error from './pages/Error';
 import Footer from './components/shared-components/Footer';
 import { useState } from 'react';
 import PricingModel from './pages/PricingModel';
+import SignIn from './pages/SignIn';
 
 const Wrapper = ({children}) => {
 
@@ -48,6 +49,7 @@ function App() {
           <Route path='/roadmap/:heading/:career_id' element={<Roadmap />}/>
           <Route path='/test' element={<Test />}/>
           <Route path='/pricing' element={<PricingModel />}/>
+          <Route path='/sign-in' element={<SignIn />}/>
           <Route path="*" element={<Error/>}/>
         </Routes>
 
