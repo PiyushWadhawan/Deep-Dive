@@ -34,6 +34,7 @@ video {
 }
 
 .title {
+    text-align: center;
     font-size: 2rem;
     text-decoration: underline;
     text-decoration-color: green;
@@ -151,6 +152,27 @@ video {
     }
     
     .sign-in-container {
-        width: 98%;
+        width: 80%;
     }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .input-box input {
+        font-size: 1rem;
+    }
+
+    .btn-continue input {
+        font-size: 1rem;
+    }
+
+    .social_media .google {
+        font-size: 1rem;
+    }
+
+    .social_media .a {
+        font-size: 1rem;
+    }
+
 }
